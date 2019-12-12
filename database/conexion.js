@@ -1,3 +1,3 @@
 const mongoose =require('mongoose');
-mongoose.connect("mongodb://172.18.0.1:27017/tarea1");
+mongoose.connect("mongodb://192.168.64.3:27017/tarea1");
 module.exports = mongoose;

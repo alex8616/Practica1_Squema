@@ -8,9 +8,9 @@ router.get('/', function(req, res, next) {
 });
 
 
-router.get('/hola', function(req,res,next){
+router.get('/', function(req,res,next){
     res.status(200).json({
-        msn:"Hola Esto FUNCIONAAAAAAA"
+        msn:"Practica N 1"
     });
 });
 
